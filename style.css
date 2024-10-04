@@ -38,7 +38,7 @@ nav a {
 nav a:hover {
   text-decoration: underline;
   opacity: .85;
-  cursor: grab;
+  cursor: pointer;
 }
 
 nav img {
@@ -147,14 +147,7 @@ nav button {
 }
 
 
-.gb.D {
-  transition: all 0.5s ease;
-}
-
-/* Supposed to add a small grey background to the labs icon. In the works at the moment. 
 .gb_D:hover {
-  opacity: .4;
   border-radius: 50%;
-  padding: 5px;
+  background-color: #cacaca;
 }
-*/

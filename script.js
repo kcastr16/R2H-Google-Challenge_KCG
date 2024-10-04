@@ -1,5 +1,8 @@
 /* Gets the input from the user */
-function searchGoat() {
-  var search =document.getElementById("search-input").value;
-  console.log(search);
+function handleSubmit() {
+  let search = document.getElementById("search-input").value;
+  if (search) {
+    var url = 'https://www.google.com/search?q=' + encodeURIComponent(search);
+    window.open(url);
+  }
 }
