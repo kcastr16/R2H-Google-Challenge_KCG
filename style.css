@@ -1,0 +1,160 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/*This section puts the items listed centered in the nav */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+nav a {
+  font-size: 13px;
+  display: inline-block;
+  line-height: 24px;
+  font-weight: 400;
+  color: (0, 0, 0, 0.87);
+  padding: 5px 6.7px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  opacity: .85;
+  cursor: grab;
+}
+
+nav img {
+  width: 34px;
+  padding: 5px;
+  margin: auto 7px;
+  cursor: grab;
+}
+
+nav img:hover {
+  opacity: .8;
+}
+
+/* this styles the sign in button */
+nav button {
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background: #4285f4;
+  color: #fff;
+  padding: 7px 12px;
+  border-radius: 3px;
+  margin-left: 7px;
+}
+
+.section-1 {
+  flex: 1;
+}
+
+.section-1 .logo {
+  display: block;
+  margin: 0px auto;
+  margin-top: 107px;
+}
+
+.searchbar {
+  width: 580px;
+  margin: 0px auto;
+  position: relative;
+  margin-top: -8px;
+  text-align: center;
+}
+
+.searchbar #search-input {
+  display: block;
+  border: 1px solid #ddd;
+  color: (0, 0, 0, 0.87);
+  font-size: 16px;
+  padding: 13px;
+  padding-left: 45px;
+  border-radius: 25px;
+  width: 100%;
+  transition: box-shadow 100ms;
+  outline-style: none;
+}
+
+.searchbar .search-input:hover {
+  border: 1px solid #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.05),  
+    0 0 2px rgba(0, 0, 0, 0.05), 
+    0 0 3px rgba(0, 0, 0, 0.05),
+    0 0 4px rgba(0, 0, 0, 0.05), 
+    0 0 5px rgba(0, 0, 0, 0.05),  
+    0 0 4px rgba(0, 0, 0, 0.05), 
+    0 0 5px rgba(0, 0, 0, 0.05)
+}
+
+.searchbar .search {
+  width: 20px;
+  opacity: .4;
+  position: absolute;
+  top: 13px;
+  left: 14px;
+}
+
+.searchbar .vs-icon {
+  width: 23px;
+  position: absolute;
+  top: 13px;
+  right: 50px;
+  
+}
+
+.searchbar .camera-icon {
+  width: 18px;
+  position: absolute;
+  top: 14.5px;
+  right: 18px;
+  
+}
+
+.submit-button {
+  border: 1px solid transparent;
+  padding: 9px 15px;
+  color: #666;
+  font-size: 14px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 28px;
+  cursor: pointer;
+  transition: border-color 100ms;
+}
+
+.submit-button:hover {
+  border: 1px solid #aaa;
+}
+
+
+.gb.D {
+  transition: all 0.5s ease;
+}
+
+/* Supposed to add a small grey background to the labs icon. In the works at the moment. 
+.gb_D:hover {
+  opacity: .4;
+  border-radius: 50%;
+  padding: 5px;
+}
+*/
