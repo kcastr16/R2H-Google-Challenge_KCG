@@ -26,6 +26,7 @@ nav {
   margin-top: 10px;
 }
 
+/* Lines up and centers the text and icons in the nav */
 nav a {
   font-size: 13px;
   display: inline-block;
@@ -114,6 +115,8 @@ nav button {
   left: 14px;
 }
 
+
+/* Puts the microphone icon in the search bar */
 .searchbar .vs-icon {
   width: 23px;
   position: absolute;
@@ -122,6 +125,7 @@ nav button {
   
 }
 
+/* Puts the camera icon in the search bar */
 .searchbar .camera-icon {
   width: 18px;
   position: absolute;
@@ -130,6 +134,7 @@ nav button {
   
 }
 
+/* Styles and centers the Google Search button */
 .submit-button {
   border: 1px solid transparent;
   padding: 9px 15px;
